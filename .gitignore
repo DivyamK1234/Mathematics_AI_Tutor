@@ -1,6 +1,7 @@
 # Ignore node_modules folder
 venv/
 # Ignore .env file
+.env
 
 # Ignore log files
 *.log
