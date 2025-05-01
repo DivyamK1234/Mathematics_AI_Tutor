@@ -1,7 +1,48 @@
-# Ignore node_modules folder
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
 venv/
-# Ignore .env file
+ENV/
+
+# Environment Variables
 .env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+vector_store/
+*.pdf
+*.mp3
+*.wav
 
 # Ignore log files
 *.log
@@ -9,6 +50,6 @@ venv/
 # Ignore compiled Python files
 *.pyc
 
-# Ignore dist
-dist/
+# Ignore .env file
+.env
 
